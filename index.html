@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="#" />
+    <meta name="viewport" content="width=device-width, initia-scale=1" />
+    <title>WEB PERTAMA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="foto&video/patrick-icon.png" alt="logo" class="logo-img" />
+        <h1 class="logo-title">DIKI X</h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#profil">ABOUT ME</a></li>
+          <li><a href="https://wa.me/082171163454">KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="button" onclick="redirInstagram()">FOLLOW SAYA</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hello, Nama Saya Diki Fajar!</p>
+        <p class="deskripsi">Ini web pertama yang saya buat</p>
+        <img src="foto&video/diki2.jpeg" class="foto" />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang" id="profil">
+        <p class="title">Moto Saya</p>
+        <p class="deskripsi">Sarapan dulu baru harapan</p>
+        <div class="mt-10">
+          <button class="button" onclick="redirInstagram()">Ikuti Saya</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="card-item">
+            <img src="foto&video/icon-game.png" alt="icon 1" class="icon" />
+            <p class="card-title">Bermain Game</p>
+            <p class="card-deskripsi">
+              Bermain game merupakan salah satu hobi saya karena dengan bermain
+              game saya bisa menghilangkan stres
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="foto&video/icon-music.png" alt="icon 2" class="icon" />
+            <p class="card-title">Mendengarkan Musik</p>
+            <p class="card-deskripsi">
+              Saya juga sering mendengarkan musik ketika bosan, salah satu lagu
+              favorit saya adalah Seafret-Atlantis
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="foto&video/icon-4.png" alt="icon 3" class="icon" />
+            <p class="card-title">Bermain Basket</p>
+            <p class="card-deskripsi">
+              Selain bermain game dan mendengarkan musik saya juga sering
+              bermain basket saat waktu luang
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title">&copy; Diki Fajar Web 2022</p>
+    </footer>
+
+    <script>
+      function redirInstagram() {
+        window.location.href = "https://www.instagram.com/dikiisheree_/";
+      }
+    </script>
+  </body>
+</html>
